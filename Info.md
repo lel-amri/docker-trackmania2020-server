@@ -11,3 +11,11 @@
   Note that the link to the [Maniaplanet dedicated server files](http://files.v04.maniaplanet.com/server/ManiaplanetServer_Latest.zip) looks closely to the first link here and is found on the [official documentation](https://doc.maniaplanet.com/dedicated-server/getting-started) ([archive](https://web.archive.org/web/20200518133125/https://doc.maniaplanet.com/dedicated-server/getting-started)).
 
 * Archive of a [tutorial on how to create a dedicated server](https://web.archive.org/web/20220319203831/https://forums.ubisoft.com/showthread.php/2242192-Tutorial-Trackmania-2020-Dedicated-Server) found on the former Ubisoft community forum
+
+## History
+
+* **2022/07/29 16:58 UTC:**
+
+  * **ETag:** `"9d4e9cf2d15b37e648f9fcdcb5efbcfc-65"`
+
+  * **Advertized version:** `date=2022-06-21_18_24 git=113135-3f1be700e66 GameVersion=3.3.0`
