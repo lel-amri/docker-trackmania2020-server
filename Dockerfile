@@ -17,7 +17,7 @@ RUN set -eux \
     ; curl -so "/TrackmaniaServer.zip" "https://nadeo-download.cdn.ubi.com/trackmania/TrackmaniaServer_Latest.zip" \
     ; test "$(sha512sum -b /TrackmaniaServer.zip | head -n 1 | cut -d " " -f 1)" = "$EXPECTED_FILE_HASH_SHA512" \
     ; adduser --system --no-create-home --disabled-password --disabled-login trackmania \
-    ; mkdir -p "/opt/trackmania" \
+    ; mkdir -p "/opt/trackmania" "/opt/trackmania/UserData" "/opt/trackmania/CommonData" "/opt/trackmania/Logs" \
     ; unzip "/TrackmaniaServer.zip" -d "/opt/trackmania" \
     ; rm -rf "/opt/trackmania/RemoteControlExamples" \
     ; rm -f "/opt/trackmania/TrackmaniaServer.exe" \
@@ -38,4 +38,4 @@ VOLUME ["/opt/trackmania/UserData", "/opt/trackmania/CommonData", "/opt/trackman
 
 USER trackmania:nogroup
 
-CMD ["/opt/trackmania/TrackmaniaServer", "/nodaemon", "/dedicated_cfg=dedicated_cfg.xml", "/game_settings=MatchSettings/game_settings.xml"]
+CMD ["/opt/trackmania/TrackmaniaServer", "/nodaemon", "/noautoquit", "/dedicated_cfg=dedicated_cfg.xml", "/game_settings=MatchSettings/game_settings.xml"]
