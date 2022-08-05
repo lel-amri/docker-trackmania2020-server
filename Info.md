@@ -19,3 +19,7 @@
   * **ETag:** `"9d4e9cf2d15b37e648f9fcdcb5efbcfc-65"`
 
   * **Advertized version:** `date=2022-06-21_18_24 git=113135-3f1be700e66 GameVersion=3.3.0`
+
+  * **URL:** https://nadeo-download.cdn.ubi.com/trackmania/TrackmaniaServer\_Latest.zip
+
+  * **SHA 512 file hash:** 45ca22bbc5eb422fae6c8fe5c05decb248959654b2e44f286faadb4b352096db49b25f727bbb9a99f2648c3c9108117dbb552989b03ab7d4e6778e2074398c24
